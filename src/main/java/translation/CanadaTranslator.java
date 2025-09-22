@@ -22,9 +22,10 @@ public class CanadaTranslator implements Translator {
      */
     @Override
     public List<String> getLanguageCodes() {
-        return new ArrayList<>(List.of("de", "en", "zh", "es"));
-    }
 
+        return new ArrayList<>(List.of("de", "en", "zh","es","fr"));
+
+    }
     /**
      * Return the country codes for all countries whose translations are
      * available from this translator.
