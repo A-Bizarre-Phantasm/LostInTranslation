@@ -81,7 +81,6 @@ public class JSONTranslator implements Translator {
 
     @Override
     public String translate(String countryCode, String languageCode) {
-        // TODO Task C: complete this method using your instance variables as needed
         return translations.get(countryCode + "-" + languageCode);
     }
 }
